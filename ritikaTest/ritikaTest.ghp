@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="T20221026_0432" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on 18 November 2022"
+    creationVersion="10.5.1" domain="default" extDocPrefix=""
+    name="ritikaTest" owner="deepak-kumar3"
+    rulesCacheUri="%%PROJECT/ROOT%%Rules"
+    updateResultsDbOnItemChange="false" uuid="00000184-89b0-7760-0008-a1910304c28c">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+    <serverSettings ghRepositoryURL="https://localhost:5443/RTCP"
+        trustSource="INBUILT_CA" trustStorePath="">
+        <dbConnectionParameters maxConnections="5" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsOption="false" dpsPass="#com.ghc.1!74ef" dpsUser=""
+                driverClass="" password="#com.ghc.1!9ea6" schema=""
+                url="" useSsl="false" user="">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!281b"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern=""
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="false" hostname="" port="443"
+            projectId="-1" projectName="--No Project Selected--"
+            publishResults="false" trustSource="TRUST_ALL"
+            trustStorePassword="#com.ghc.1!f911" trustStorePath=""/>
+    </serverSettings>
+    <permissionsSettings ADtrustSource="NONE"
+        ADtrustStorePassword="#com.ghc.1!2fdc" ADtrustStorePath=""
+        autoLogin="true" host="AP-PNP-DC02"
+        permFactId="ldap.permissions.factory.none" port="389" pswd="mpAEc+oGrisG2WO7jn639c150ZJ9M9H1ngwdUEQhQhE=$5ABAr9mE54Ig60v0Wh0KC7Yq9bb9xb2aSsYpD9BnNN4="/>
+</_c>
